@@ -50,6 +50,11 @@ body {
     width: 100%;
 }
 
+.dateTime {
+    display: flex;
+    align-items: center;
+}
+
 /* Theme buttons div */
 .flexrow-container {
     align-items: center;
@@ -94,7 +99,7 @@ body {
     border-right: solid 3px rgba(0, 0, 0, 0.75);
     white-space: pre;
     overflow: hidden;     
-    letter-spacing: 0.20rem;
+    letter-spacing: 0.10rem;
     margin-top: 50px;
     margin-bottom: 20px;
     max-width: 480px;
@@ -130,8 +135,9 @@ body {
   }
 
   h5 {
-   font-style: italic;
-   font-family: "Dancing Script", cursive;;
+   font-style: normal;
+   font-family: "Dancing Script", cursive;
+   font-weight: bold  ;
   }
 
 form {
